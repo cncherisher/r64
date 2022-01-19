@@ -40,7 +40,7 @@ define Package/lal
   CATEGORY:=Network
   SUBMENU:=Web Servers/Proxies
   TITLE:=An audio/video live streaming broadcast server written in Go.
-  DEPENDS:=$(GO_ARCH_DEPENDS) +upx
+  DEPENDS:=$(GO_ARCH_DEPENDS)
   URL:=https://pengrl.com/lal/
 endef
 
